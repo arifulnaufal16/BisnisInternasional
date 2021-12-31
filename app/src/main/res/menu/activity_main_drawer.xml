@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/firstOne"
+        android:orderInCategory="1"
+        android:title="Tentang Prodi">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_desk"
+                    android:title="@string/menu_desk" />
+                <item
+                    android:id="@+id/nav_visi"
+                    android:title="@string/menu_about" />
+                <item
+                    android:id="@+id/nav_pengelola"
+                    android:title="@string/menu_pengelola" />
+                <item
+                    android:id="@+id/nav_profil"
+                    android:title="@string/menu_profil" />
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single"
+        android:orderInCategory="2">
+        <item
+            android:id="@+id/nav_kontak"
+            android:title="@string/menu_kontak" />
+    </group>
+
+
+
+</menu>

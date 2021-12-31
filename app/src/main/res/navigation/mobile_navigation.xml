@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_desk">
+
+    <fragment
+        android:id="@+id/nav_desk"
+        android:name="com.example.unpadinternship.AboutFragment"
+        tools:layout="@layout/fragment_deskripsi" />
+
+    <fragment
+        android:id="@+id/nav_visi"
+        android:name="com.example.unpadinternship.VisiFragment"
+        tools:layout="@layout/fragment_visi" />
+
+    <fragment
+        android:id="@+id/nav_pengelola"
+        android:name="com.example.unpadinternship.PengelolaFragment"
+        tools:layout="@layout/fragment_pengelola" />
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.example.unpadinternship.ProfilFragment"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/nav_kontak"
+        android:name="com.example.unpadinternship.KontakFragment"
+        tools:layout="@layout/fragment_kontak" />
+</navigation>

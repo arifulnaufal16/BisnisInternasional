@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">D4 Bisnis Internasional Unpad</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_desk">Deskripsi</string>
+    <string name="menu_about">Visi, Misi, dan Tujuan</string>
+    <string name="menu_pengelola">Dosen dan Pengelola Prodi</string>
+    <string name="menu_profil">Profil Lulusan</string>
+    <string name="menu_kontak">Informasi Program Studi</string>
+
+</resources>
